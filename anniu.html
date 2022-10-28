@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            transform-style: preserve-3d;
+            perspective: 500px;
+        }
+        .box {
+            position: relative;
+            width: 200px;
+            height: 100px;
+            margin: 100px auto;
+            transform-style: preserve-3d;
+            font-size: 20px;
+            color: #fff;
+            line-height: 100px;
+            text-align: center;
+            transition: all .4s;
+        }
+        .box:hover {
+            transform: rotateX(90deg);
+        }
+        .box .befor,
+        .box .after {
+            position:absolute;
+            width: 200px;
+            height: 100px;
+        }
+        .befor {
+            background-color: pink;
+            transform: translateZ(50px);
+            
+        }
+        .after {
+            background-color: blue;
+            transform: rotateX(-90deg) translateZ(50px);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="befor">yyc的宝贝那位</div>
+        <div class="after">李丹丹丹丹耶</div>
+    </div>
+</body>
+</html>
