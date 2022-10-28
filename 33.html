@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>no.3</title>
+
+    <style>
+        @keyframes pos {
+            0% {
+
+            }
+            80% {
+                width: 40px;
+                height: 40px;
+                opacity: 1;
+            }
+            100% {
+                width: 70px;
+                height: 70px;
+                opacity: 0;
+            }
+        }
+        .city {
+            position: relative;
+            width: 8px;
+            height: 8px;
+            background-color: blue;
+            margin: 100px auto;
+            border-radius: 50%;
+        }
+        .city div[class^="dotted"] {
+            position: absolute;
+            height: 8px;
+            width: 8px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            box-shadow: 0 0 12px #09f;
+            border-radius: 50%;
+            animation: name duration timing-function delay iteration-count direction fill-mode;
+            animation: pos 1.6s infinite linear ;
+        }
+        body .city .dotted2 {
+            animation-delay: .8s;
+        }
+        body .city .dotted3 {
+            animation-delay: 1.6s;
+        }
+    </style>
+
+</head>
+
+<body>
+   
+    <div class="city">
+        <div class="dotted1"></div>
+        <div class="dotted2"></div>
+        <div class="dotted3"></div>
+    </div>
+</body>
+
+</html>
