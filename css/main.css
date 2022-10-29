@@ -1,0 +1,120 @@
+.main {
+    height: 455px;
+    width: 980px;
+    margin-left: 220px;
+}
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: skyblue;
+    background: url(../images/focus.png) no-repeat center;
+}
+.newflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+    /* background-color: pink; */
+    /* border: 1px solid #e4e4e4; */
+}
+.newflash .new {
+    height: 165px;
+    width: 100%;
+    padding: 0 15px;
+    border: 1px solid #e4e4e4;
+}
+.new-hd {
+    height: 32px;
+    width: 100%;
+    border-bottom: 1px dotted #e4e4e4;
+    line-height: 32px;
+}
+.new-hd .hdl {
+    float: left;
+    font-size: 14px;
+    color: #333;
+}
+.new .new-hd a {
+    float: right;
+    color: #333;
+    font-size: 12px;
+}
+.new .new-hd a:hover {
+    color: red;
+}
+.new-bd ul li a {
+    font-size: 12px;
+    color: #333;
+}
+.new-bd ul li {
+    height: 25px;
+    /* text-align: center; */
+    line-height: 25px;
+}
+.new-bd ul li a h4 {
+    float: left;
+    margin-right: 5px;
+}
+.lifeservise {
+    float: right;
+    height: 211px;
+    width: 100%;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    border-bottom: 0;
+}
+.lifeservise ul li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.lifeservise ul li span {
+    display: block;
+    width: 60px;
+    height: 40px;
+
+}
+.newflash .hb {
+    width: 100%;
+}
+.newflash .hb img {
+    height: 30px;
+}
+.racon {
+    height: 162px;
+    width: 1200px;
+    background-color: pink;
+    margin-top: 12px;
+}
+.raconz {
+    float: left;
+    width: 206px;
+    height: 162px;
+    background: center url(../images/racon.png) no-repeat;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 162px;
+}
+.racony ul li {
+    float: left;
+    height: 100%;
+    width: 40px;
+}
+.racony ul li a {
+    float: left;
+    height: 100%;
+    width: 40px;
+}
+.racony ul li a img {
+    float: left;
+    height: 100%;
+    width: 40px;
+}
+
